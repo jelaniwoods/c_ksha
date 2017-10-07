@@ -1,0 +1,40 @@
+
+body {
+  background: url(../assets/university.jpg) no-repeat center center fixed;
+  background-s: cover;
+}
+
+.bg {
+  /*opacity: .8;*/
+  color: #7f8c8d;
+}
+
+.cfont {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.footer {
+  background-color: #ecf0f1;
+  bottom: 0;
+  position: fixed;
+  opacity: .9;
+  border-radius: 20px 20px 0px 0px;
+
+}
+
+.border {
+  border: 3px #ecf0f1 solid;
+  padding: 10px 15px;
+  margin: 20px 10px;
+  border-radius: 5px;
+}
+
+#foot {
+  font-size: 18px;
+  padding: 10px;
+  color: #7f8c8d;
+}
+
+.rowHeight {
+  height: 500px;
+}
