@@ -22,6 +22,10 @@ body {
 
 }
 
+.card {
+  animation-name: fadeInDown;
+  animation-duration: 3s;
+}
 .border {
   border: 3px #ecf0f1 solid;
   padding: 10px 15px;
@@ -37,4 +41,24 @@ body {
 
 .rowHeight {
   height: 500px;
+}
+
+
+
+@keyframes fadeInDown {
+
+  0% {
+    opacity: 0;
+    transform:translateY(-12%);
+  }
+  25% {
+      opacity: 50%;
+  }
+  50% {
+      transform:translateY(0%);
+  }
+  100% {
+    opacity: 100%;
+  }
+
 }
