@@ -4,6 +4,11 @@ body {
   background-s: cover;
 }
 
+.container {
+  background-color: blue;
+  opacity: .4;
+}
+
 .bg {
   /*opacity: .8;*/
   color: #7f8c8d;
