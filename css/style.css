@@ -4,8 +4,9 @@ body {
   background-s: cover;
 }
 
-.container {
+.container-fluid {
   background-color: blue;
+  width: 84vw;
   opacity: .4;
 }
 
