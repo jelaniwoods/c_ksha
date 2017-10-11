@@ -1,0 +1,41 @@
+
+
+
+.chunk-1 {
+
+  background: url(../assets/children-lined-up.jpg) no-repeat top center fixed;
+  margin: 0 auto;
+  padding-top: 10em;
+  /*color: white;*/
+  height: auto;
+}
+
+.title-caption {
+  color: white;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.button-size {
+  height: 14em;
+}
+.more-button {
+  color: white;
+  border: 2px grey solid;
+  height: 3em;
+  text-align: center;
+  margin-top: 2em;;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+.cfont {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: white;
+}
+.rowHeight {
+  height: 500px;
+}

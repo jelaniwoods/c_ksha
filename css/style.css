@@ -1,15 +1,30 @@
 
 body {
-  background: url(../assets/university.jpg) no-repeat center center fixed;
-  background-s: cover;
+   /*no-repeat top center fixed*/
+  /*background: url(../assets/university.jpg), url(../assets/study-group.jpg) ;
+  background-repeat: no-repeat, no-repeat;
+  background-position: top,bottom;*/
+  /*background-s: cover;*/
+  background-color: lightgrey;
 }
 
-.container-fluid {
-  background-color: blue;
+.chunk-1 {
+  /*background-color: blue;*/
+  background: url(../assets/study-group.jpg) no-repeat top center fixed;
+  margin: 0 auto;
+}
+
+.chunk-2 {
+  background: url(../assets/student-writing-on-pape.jpg) no-repeat top center fixed;
+  margin: 0 auto;
+}
+.row {
   width: 84vw;
-  opacity: .4;
+  margin: 0 auto;
 }
-
+.container-fluid {
+  padding: 0;
+}
 .bg {
   /*opacity: .8;*/
   color: #7f8c8d;
@@ -22,7 +37,7 @@ body {
 .footer {
   background-color: #ecf0f1;
   bottom: 0;
-  position: fixed;
+  /*position: fixed;*/
   opacity: .9;
   border-radius: 20px 20px 0px 0px;
 
